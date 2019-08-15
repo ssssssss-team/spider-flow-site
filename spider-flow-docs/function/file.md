@@ -1,0 +1,7 @@
+# file
+
+## write
+
+## bytes
+
+## string

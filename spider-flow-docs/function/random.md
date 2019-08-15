@@ -1,0 +1,7 @@
+# random
+
+## randomInt
+
+## randomDouble
+
+## randomLong
