@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/logo.svg
 actionText: 快速开始 →
-actionLink: /quick/
+actionLink: /intro/
 features:
 - title: 待修改
   details: 待修改
