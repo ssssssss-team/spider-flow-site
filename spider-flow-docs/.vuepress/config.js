@@ -1,6 +1,7 @@
 module.exports = {
 	title: 'spider-flow',
 	description: 'Just playing around',
+	head: [["link", {rel: "icon", href: `/favicon.ico`}]],
 	themeConfig: {
 		docsRepo : 'javamxd/spider-flow-site',
 		docsDir : 'spider-flow-docs',
@@ -23,19 +24,19 @@ module.exports = {
 		sidebar:[{
 			title : '快速入门',
 			collapsable: false,
-			children: ['intro','install','quick','document']
+			children: ['intro','install']
 		},{
 			title: '图形说明',
 			collapsable: false,
-			children: ['shape/variable','shape/output','shape/datasource','shape/executesql','shape/process','shape/function']
+			children: ['shape/request','shape/variable','shape/output','shape/datasource','shape/executesql','shape/process','shape/function','shape/arrow']
 		},{
 			title: '函数说明',
 			collapsable: false,
-			children: ['function/base64','function/date','function/file','function/json','function/list','function/random','function/string','function/url']
+			children: ['function/extra','function/base64','function/date','function/file','function/json','function/list','function/random','function/string','function/url']
 		},{
 			title: '插件',
 			collapsable: false,
-			children: ['plugins/selenium','plugins/redis','plugins/mongodb','plugins/oss','plugins/ocr']
+			children: ['plugins/selenium','plugins/redis','plugins/mongodb','plugins/oss','plugins/ocr','plugins/proxypool']
 		}]
     }
 }
