@@ -21,25 +21,25 @@
 - 获取第一个a标签的html
 
   ```javascript
-  ${selector(resp.html,'a')}
+  ${extract.selector(resp.html,'a')}
   ```
 
 - 获取第一个a标签的text(文本)
 
   ```javascript
-  ${selector(resp.html,'a','text')}
+  ${extract.selector(resp.html,'a','text')}
   ```
 
 - 获取第一个a标签的outerhtml
 
   ```javascript
-  ${selector(resp.html,'a','outerhtml')}
+  ${extract.selector(resp.html,'a','outerhtml')}
   ```
 
 - 获取第一个a标签的href属性
 
   ```javascript
-  ${selector(resp.html,'a','attr','href')}
+  ${extract.selector(resp.html,'a','attr','href')}
   ```
 
 ## selectors
@@ -62,25 +62,25 @@
 - 获取所有a标签的html
 
   ```javascript
-  ${selectors(resp.html,'a')}
+  ${extract.selectors(resp.html,'a')}
   ```
 
 - 获取所有a标签的text(文本)
 
   ```javascript
-  ${selectors(resp.html,'a','text')}
+  ${extract.selectors(resp.html,'a','text')}
   ```
 
 - 获取所有a标签的outerhtml
 
   ```javascript
-  ${selectors(resp.html,'a','outerhtml')}
+  ${extract.selectors(resp.html,'a','outerhtml')}
   ```
 
 - 获取所有a标签的href属性
 
   ```javascript
-  ${selectors(resp.html,'a','attr','href')}
+  ${extract.selectors(resp.html,'a','attr','href')}
   ```
 
 ## xpath
@@ -100,7 +100,7 @@
 - 获取第一个a标签的html
 
   ```javascript
-  ${xpath(resp.html,'//a')}
+  ${extract.xpath(resp.html,'//a')}
   ```
 
   
@@ -108,7 +108,7 @@
 - 获取第一个a标签的href属性
 
   ```javascript
-  ${xpath(resp.html,'//a/@href')}
+  ${extract.xpath(resp.html,'//a/@href')}
   ```
 
   
@@ -130,7 +130,7 @@
 - 获取所有a标签
 
   ```javascript
-  ${xpaths(resp.html,'//a')}
+  ${extract.xpaths(resp.html,'//a')}
   ```
 
   
@@ -138,7 +138,7 @@
 - 获取所有a标签的href属性
 
   ```javascript
-  ${xpaths(resp.html,'//a/@href')}
+  ${extract.xpaths(resp.html,'//a/@href')}
   ```
 ## regx
 
@@ -158,7 +158,7 @@
 - 获取网页title
 
   ```javascript
-  ${regx(resp.html,'<title>(.*?)</title>')}
+  ${extract.regx(resp.html,'<title>(.*?)</title>')}
   ```
 
 ## regxs
@@ -178,7 +178,7 @@
 - 获取所有h2标签内容
 
   ```javascript
-  ${regxs(resp.html,'<h2>(.*?)</h2>')}
+  ${extract.regxs(resp.html,'<h2>(.*?)</h2>')}
   ```
 
 ## jsonpath
@@ -190,7 +190,7 @@
 
 ::: tip 
 
-返回值类型：String
+返回值类型：Object
 
 :::
 
@@ -199,5 +199,5 @@
 - 获取json根节点下的code属性
 
   ```javascript
-  ${regxs(resp.json,'$.code')}
+  ${extract.regxs(resp.json,'$.code')}
   ```

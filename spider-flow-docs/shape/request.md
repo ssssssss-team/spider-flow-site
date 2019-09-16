@@ -2,9 +2,9 @@
 
 - 循环变量：用来定义循环变量，主要目的是抓取多个同类URL,如：projectIndex
 
-- 循环次数：定义循环次数，可使用${}从变量中获取值（FreeMarker语法），如：10
+- 循环次数：定义循环次数，可使用${}从变量中获取值，如：10，${list.length(var)}
 
-- 起始URL：抓取地址，可使用${}从变量中获取值（FreeMarker语法）如：`https://gitee.com/${projectUrls[projectIndex]}`
+- 起始URL：抓取地址，可使用${}从变量中获取值如：`https://gitee.com/${projectUrls[projectIndex]}`
 
 - 请求方法：GET、POST、PUT、DELETE等等
 
