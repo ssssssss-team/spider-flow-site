@@ -34,6 +34,14 @@ module.exports = {
 			collapsable: false,
 			children: ['function/extra','function/base64','function/date','function/file','function/json','function/list','function/random','function/string','function/url']
 		},{
+			title: '类型扩展',
+			collapsable: false,
+			children: ['classes/explain','classes/spiderresponse','classes/string','classes/date','classes/object','classes/list','classes/element','classes/array']
+		}/*,{
+			title: '插件开发',
+			collapsable: false,
+			children: ['development/shape','development/utils','development/extension']
+		}*/,{
 			title: '插件',
 			collapsable: false,
 			children: ['plugins/selenium','plugins/redis','plugins/mongodb','plugins/oss','plugins/ocr','plugins/proxypool']
