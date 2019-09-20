@@ -1,20 +1,5 @@
-# org.spiderflow.io.SpiderResponse
+# org.jsoup.select.Elements
 
-## element
-
-::: tip 
-
-返回值类型：Element
-
-:::
-
-
-- 将对象转为Element
-
-  ```javascript
-  ${resp.element()}
-  ```
-  
 ## xpath
 
 | 参数名 |       描述       | 可否为空 |
@@ -27,13 +12,12 @@
 
 :::
 
-
 - 根据xpath获取内容或Element对象
 
   ```javascript
-  ${resp.xpath('//a/@href')}
+  ${elementsVar.xpath('//a/@href')}
   ```
- 
+
 ## xpaths
 
 | 参数名 |       描述       | 可否为空 |
@@ -46,13 +30,12 @@
 
 :::
 
-
 - 根据xpath获取内容或Element对象
 
   ```javascript
-  ${resp.xpaths('//a/@href')}
+  ${elementsVar.xpaths('//a/@href')}
   ```
-  
+
 ## regx
 
 | 参数名 |       描述       | 可否为空 |
@@ -69,7 +52,7 @@
 - 根据正则表达式提取字符串
 
   ```javascript
-  ${resp.regx('<title>(.*?)</title>')}
+  ${elementsVar.regx('<title>(.*?)</title>')}
   ```
  
 ## regxs
@@ -88,7 +71,7 @@
 - 根据正则表达式提取字符串
 
   ```javascript
-  ${resp.regx('<h2>(.*?)</h2>')}
+  ${elementsVar.regx('<h2>(.*?)</h2>')}
   ```
 
 ## selector
@@ -105,40 +88,60 @@
 
 - 根据css选择器查找dom
 
-  ```javascript
-  ${resp.selector('div a.selected')}
-  ```
+```javascript
+${elementsVar.selector('div a.selected')}
+```
 ## selectors
 
 | 参数名 |       描述       | 可否为空 |
 | :----: | :--------------: | :------: |
 | cssQuery |  css选择器  | 否 |
 ::: tip 
-
-返回值类型：List\<Element>
-
+返回值类型：Elements
 :::
 
 
 - 根据css选择器查找dom
 
-  ```javascript
-  ${resp.selectors('div a.selected')}
-  ```
+```javascript
+${elementsVar.selectors('div a.selected')}
+```
   
-## jsonpath
+## attr
 
 | 参数名 |       描述       | 可否为空 |
 | :----: | :--------------: | :------: |
-| path |  jsonpath  | 否 |
-
+| attrName |  属性名  | 否 |
 ::: tip 
-返回值类型：Object
+返回值类型：String
 :::
 
 
-- 根据JSONPath提取数据
+- 获取节点的属性值
 
-  ```javascript
-  ${resp.jsonpath('$.code')}
-  ```
+```javascript
+${elementsVar.attr('src')}
+```
+  
+## text
+
+::: tip 
+返回值类型：String
+:::
+
+- 获取节点的Text
+
+```javascript
+${elementsVar.text()}
+```
+
+## html
+::: tip 
+返回值类型：String
+:::
+
+
+- 获取节点的html
+```javascript
+${elementsVar.html()}
+```

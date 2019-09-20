@@ -199,5 +199,5 @@
 - 获取json根节点下的code属性
 
   ```javascript
-  ${extract.regxs(resp.json,'$.code')}
+  ${extract.jsonpath(resp.json,'$.code')}
   ```

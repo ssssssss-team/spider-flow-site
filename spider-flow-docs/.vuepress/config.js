@@ -28,7 +28,7 @@ module.exports = {
 		},{
 			title: '图形说明',
 			collapsable: false,
-			children: ['shape/request','shape/variable','shape/output','shape/datasource','shape/executesql','shape/process','shape/function','shape/arrow']
+			children: ['shape/request','shape/variable','shape/output','shape/executesql','shape/process','shape/function','shape/arrow']
 		},{
 			title: '函数说明',
 			collapsable: false,
@@ -36,12 +36,12 @@ module.exports = {
 		},{
 			title: '类型扩展',
 			collapsable: false,
-			children: ['classes/explain','classes/spiderresponse','classes/string','classes/date','classes/object','classes/list','classes/element','classes/array']
-		}/*,{
+			children: ['classes/explain','classes/spiderresponse','classes/string','classes/date','classes/object','classes/list','classes/element','classes/elements','classes/array']
+		},{
 			title: '插件开发',
 			collapsable: false,
-			children: ['development/shape','development/utils','development/extension']
-		}*/,{
+			children: ['development/plugin','development/shape','development/utils','development/extension']
+		},{
 			title: '插件',
 			collapsable: false,
 			children: ['plugins/selenium','plugins/redis','plugins/mongodb','plugins/oss','plugins/ocr','plugins/proxypool']
