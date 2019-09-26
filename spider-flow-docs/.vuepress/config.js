@@ -24,7 +24,7 @@ module.exports = {
 		sidebar:[{
 			title : '快速入门',
 			collapsable: false,
-			children: ['intro','install']
+			children: ['intro','install','expression']
 		},{
 			title: '图形说明',
 			collapsable: false,
