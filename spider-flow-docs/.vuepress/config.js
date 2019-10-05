@@ -1,6 +1,6 @@
 module.exports = {
 	title: 'spider-flow',
-	description: 'Just playing around',
+	description: '一个无需写代码的爬虫平台',
 	head: [["link", {rel: "icon", href: `/favicon.ico`}]],
 	themeConfig: {
 		docsRepo : 'javamxd/spider-flow-site',
