@@ -16,7 +16,7 @@ https://www.xxx.com/${path}/q?=keyword=${keyword}
 
 ```
 byte ${123b}
-short ${{123s}
+short ${123s}
 int ${123}
 long ${123l}
 float ${123f}
