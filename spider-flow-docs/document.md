@@ -9,8 +9,8 @@
 
 #### 抓取页面
 - 循环变量：用来定义循环变量，主要目的是抓取多个同类URL,如：projectIndex
-- 循环次数：定义循环次数，可使用${}从变量中获取值（FreeMarker语法），如：10
-- 起始URL：抓取地址，可使用${}从变量中获取值（FreeMarker语法）如：https://gitee.com/${projectUrls[projectIndex]}
+- 循环次数：定义循环次数，可使用${}从变量中获取值，如：10
+- 起始URL：抓取地址，可使用${}从变量中获取值如：https://gitee.com/${projectUrls[projectIndex]}
 - 请求方法：GET、POST
 - 请求参数：用来设置请求参数，可添加多个，参数值处可使用${}来获取值
 - 请求header：用来设置请求header，可添加多个，header值处可使用${}来获取值
@@ -18,7 +18,7 @@
 
 #### 定义变量
 - 变量名：定义变量名称
-- 变量值：```可使用${}从变量中获取值（FreeMarker语法）如：${selectors(resp.html,'.categorical-project-card a','attr','href')}```
+- 变量值：```可使用${}从变量中获取值如：${selectors(resp.html,'.categorical-project-card a','attr','href')}```
 
 #### 定义数据源
 - 数据库类型，目前仅支持Mysql(其它驱动未引入至项目中)

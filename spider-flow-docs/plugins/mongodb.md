@@ -24,7 +24,7 @@
 :::
 
 ``` javascript
-//其中xxxx时之前配置的别名
+//其中xxxx是之前配置的别名
 //插入数据
 ${mongodb.xxxx.collectionName.insert([{key : value},{key : value}])}
 ${mongodb.xxxx.collectionName.insert({key : value})}

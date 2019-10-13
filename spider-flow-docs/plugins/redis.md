@@ -27,7 +27,7 @@
 :::
 
 ``` javascript
-//其中xxxx时之前配置的别名
+//其中xxxx是之前配置的别名
 //调用redis set命令
 ${redis.xxxx.set('key','value')}
 ```
