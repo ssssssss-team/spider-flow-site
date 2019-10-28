@@ -4,7 +4,7 @@
 
 本项目中表达式引擎也支持模板的方式，例如动态拼接url
 
-```
+```javascript
 https://www.xxx.com/${path}/q?=keyword=${keyword}
 ```
 
@@ -14,7 +14,7 @@ https://www.xxx.com/${path}/q?=keyword=${keyword}
 
 ## 类型
 
-```
+```javascript
 byte ${123b}
 short ${123s}
 int ${123}
@@ -27,9 +27,10 @@ string ${"hello"}
 
 同时也支持定义Map和List
 
-```
+``` javascript
 ${{key : "value"}}
 ${[1,2,3,4,5]}
+${{$key : "value"}}//$key表示动态从变量中获取key值
 ```
 
 ## 一元运算符
@@ -56,7 +57,7 @@ ${[1,2,3,4,5]}
 
 ## 变量
 
-```
+```javascript
 ${var}
 ```
 
@@ -64,7 +65,7 @@ ${var}
 
 ## 调用方法
 
-```
+```javascript
 ${extract.xpath(resp.html,'//div[@id=abc]').regx('/\\d/').toInt()}
 ```
 
@@ -72,7 +73,7 @@ ${extract.xpath(resp.html,'//div[@id=abc]').regx('/\\d/').toInt()}
 
 ## 数组和Map
 
-```
+```javascript
 ${myArray[2]} ${myArray[indexVar]} ${myMap.get("key")} ${myMap["key"]} ${myMap.get(keyVar)} ${myMap[keyVar]}
 ```
 
@@ -80,8 +81,9 @@ ${myArray[2]} ${myArray[indexVar]} ${myMap.get("key")} ${myMap["key"]} ${myMap.g
 
 与Java中一样，您可以无限嵌套成员，数组元素和映射访问
 
-```
+```javascript
 ${myObject.aField[12]["key"].someMethod(1, 2).anotherMethod()}
 ```
-
-`${extract.xpath(resp.html,'//div[@id=abc]').regx('/\\d/').toInt()}`
+```javascript
+${extract.xpath(resp.html,'//div[@id=abc]').regx('/\\d/').toInt()}
+```

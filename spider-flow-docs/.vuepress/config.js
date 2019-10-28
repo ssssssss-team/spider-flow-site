@@ -28,11 +28,15 @@ module.exports = {
 		},{
 			title: '图形说明',
 			collapsable: false,
-			children: ['shape/request','shape/variable','shape/output','shape/executesql','shape/process','shape/function','shape/arrow']
+			children: ['shape/request','shape/variable','shape/loop','shape/loopjoin','shape/output','shape/executesql','shape/process','shape/function','shape/arrow']
 		},{
 			title: '函数说明',
 			collapsable: false,
 			children: ['function/extra','function/base64','function/date','function/file','function/json','function/list','function/random','function/string','function/url']
+		},{
+			title: '其它说明',
+			collapsable: false,
+			children: ['others/variable','others/faq']
 		},{
 			title: '类型扩展',
 			collapsable: false,
