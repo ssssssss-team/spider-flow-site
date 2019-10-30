@@ -49,3 +49,5 @@
   | cookies    | Map<String,String>   | cookies        |
   | headers    | Map<String,String>   | headers        |
   | statusCode | int                  | HTTP状态码     |
+  | url        | String               | 当前页面的URL   |
+  | stream     | InputStream          | 二进制流(可用于下载) |
