@@ -50,10 +50,11 @@ ${strVar.element()}
 | 参数名 |       描述       | 可否为空 |
 | :----: | :--------------: | :------: |
 | pattern |  正则表达式  | 否 |
+|  groups  |     捕获组序号int或List\<Integer>(多个)      |    是    |
 
 ::: tip 
 
-返回值类型：String
+返回值类型：String/List\<String>
 
 :::
 
@@ -69,10 +70,11 @@ ${strVar.element()}
 | 参数名 |       描述       | 可否为空 |
 | :----: | :--------------: | :------: |
 | pattern |  正则表达式  | 否 |
+|  groups  |     捕获组序号int或List\<Integer>(多个)      |    是    |
 
 ::: tip 
 
-返回值类型：List\<String>
+返回值类型：List\<String>/List\<List\<String>
 
 :::
 
@@ -80,7 +82,7 @@ ${strVar.element()}
 - 根据正则表达式提取字符串
 
   ```javascript
-  ${strVar.regx('<h2>(.*?)</h2>')}
+  ${strVar.regxs('<h2>(.*?)</h2>')}
   ```
 
 ## selector

@@ -146,10 +146,11 @@
 | :----: | :-----------------: | :------: |
 | string | 字符串，如resp.html |    否    |
 |  regx  |     正则表达式      |    否    |
+|  groups  |     捕获组序号int或List\<Integer>(多个)      |    是    |
 
 ::: tip 
 
-返回值类型：String
+返回值类型：String/List\<String>
 
 :::
 
@@ -166,10 +167,11 @@
 | :----: | :-----------------: | :------: |
 | string | 字符串，如resp.html |    否    |
 |  regx  |     正则表达式      |    否    |
+|  groups  |     捕获组序号int或List\<Integer>(多个)      |    是    |
 
 ::: tip 
 
-返回值类型：String
+返回值类型：List\<String>/List\<List\<String>
 
 :::
 

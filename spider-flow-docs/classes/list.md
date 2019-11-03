@@ -21,3 +21,13 @@ ${listVar.length()}
 ```javascript
 ${listVar.join(',')}
 ```
+
+## shuffle
+::: tip 
+返回值类型：List
+:::
+
+- 将list打乱顺序
+```javascript
+${listVar.shuffle()}
+```
