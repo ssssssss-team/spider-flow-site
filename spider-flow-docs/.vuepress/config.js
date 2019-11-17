@@ -10,7 +10,7 @@ module.exports = {
 		lastUpdated: "上次更新",
 		nav : [{
 			text : '演示站点',
-			link : 'http://39.105.125.219:8088/'
+			link : 'http://demo.spiderflow.org		/'
 		},{
 			text : '源码',
 			link : 'https://gitee.com/jmxd/spider-flow'
