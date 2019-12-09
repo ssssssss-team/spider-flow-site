@@ -1,5 +1,18 @@
 # 更新日志
 
+## [v0.3.0] 2019.12.09
+- 新增Cookie自动管理功能
+- 新增resp.links()、resp.images()、resp.title函数
+- 新增url批量下载，不用先爬取再下载
+- 新增string.lastIndexOf、thread.sleep()、list.filterStr函数
+- 新增多函数执行方法
+- 新增任务状态、任务执行记录
+- 修复爬虫名称有空格时，tab页打不开的BUG
+- 修复爬虫名称在编辑时未能获取到名称的BUG
+- 优化对返回结果resp.json、resp.html进行缓存
+- 优化请求延迟时间对第一次执行也生效
+
+
 ## [v0.2.1] 2019.11.17
 - 新增selectOne方法，执行后返回Map对象
 - 新增selectInt方法，执行后返回int

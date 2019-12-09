@@ -144,3 +144,32 @@
   ```javascript
   ${resp.jsonpath('$.code')}
   ```
+
+## links
+
+| 参数名 |       描述       | 可否为空 |
+| :----: | :--------------: | :------: |
+| pattern |  正则匹配  | 是 |
+
+::: tip 
+返回值类型：List\<String>
+:::
+
+
+- 提取页面中所有链接
+
+  ```javascript
+  ${resp.links()}
+  ```
+## images
+
+::: tip 
+返回值类型：List\<String>
+:::
+
+
+- 提取页面中所有图片
+
+  ```javascript
+  ${resp.images()}
+  ```

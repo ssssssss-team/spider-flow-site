@@ -59,3 +59,13 @@
   ```javascript
   ${list.subList(listVar,2,5)}
   ```
+
+## filterStr
+::: tip 
+返回值类型：List
+:::
+
+- 根据指定正则表达式匹配，匹配不成功的则过滤掉
+```javascript
+${listVar.filterStr(pattern)}
+```
