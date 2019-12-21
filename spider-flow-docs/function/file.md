@@ -20,6 +20,25 @@
   ```javascript
   ${file.write('/data/test.txt','hello world!')}
   ```
+## write
+
+|    参数名     |               描述                | 可否为空 |
+| :-----------: | :-------------------------------: | :------: |
+|     path      |            写出的路径             |    否    |
+|     urls      |       要下载的url集合      |    否    |
+
+::: tip 
+
+无返回值
+
+:::
+
+
+- 写出文件,批量下载文件
+
+  ```javascript
+  ${file.write('/data/',urls)}
+  ```
 
 ## bytes
 
