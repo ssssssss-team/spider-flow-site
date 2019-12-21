@@ -5,7 +5,7 @@
 |    参数名     |               描述                | 可否为空 |
 | :-----------: | :-------------------------------: | :------: |
 |     path      |            写出的路径             |    否    |
-| content/bytes/stream |       内容,字符串或字节数组或二进制输入流       |    否    |
+| content/bytes/stream/List\<String> |       内容,字符串或字节数组或二进制输入流或url list       |    否    |
 |    append     | 布尔类型,是否追加输出,默认为false |    是    |
 
 ::: tip 
@@ -59,3 +59,4 @@
   ```javascript
   ${string.string('/data/test.txt')}
   ```
+  

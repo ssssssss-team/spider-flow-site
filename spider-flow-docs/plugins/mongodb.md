@@ -4,11 +4,11 @@
 1. 首先到码云下载插件[点击下载](https://gitee.com/jmxd/spider-flow-mongodb)到本地并导入到工作空间或安装到maven库
 2. 在spider-flow/spider-flow-web/pom.xml中引入插件
 ```xml
-<!-- 引入redis插件 -->
+<!-- 引入mongodb插件 -->
 <dependency>
 	<groupId>org.spiderflow</groupId>
 	<artifactId>spider-flow-mongodb</artifactId>
-	<version>0.0.1</version>
+	<version>${spider-flow.version}</version>
 </dependency>
 ```
 ## 定义Mongodb数据源

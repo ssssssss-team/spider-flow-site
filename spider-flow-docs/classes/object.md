@@ -26,3 +26,19 @@ ${objVar.string()}
 ```javascript
 ${objVar.jsonpath('$.code')}
 ```
+
+## sleep
+| 参数名 |       描述       | 可否为空 |
+| :----: | :--------------: | :------: |
+| time |  睡眠时间(毫秒)  | 否 |
+
+::: tip 
+返回值类型：Object，即返回调用者对象
+:::
+
+
+- 睡眠500ms
+
+```javascript
+${objVar.sleep(500)}
+```

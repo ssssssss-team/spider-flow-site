@@ -59,3 +59,23 @@
   ```javascript
   ${list.subList(listVar,2,5)}
   ```
+  
+ ## filterStr
+ 
+ |  参数名   |     描述     | 可否为空 |
+ | :-------: | :----------: | :------: |
+ |   List\<String>    | 要过滤的List |    否    |
+ | pattern |  正则表达式  |    否    |
+ 
+ ::: tip 
+ 
+ 返回值类型：List\<String>
+ 
+ :::
+ 
+ 
+ - 根据正则表达式过滤字符串list元素
+ 
+   ```javascript
+   ${list.filterStr(listVar,pattern)}
+   ```

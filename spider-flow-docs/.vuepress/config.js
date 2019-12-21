@@ -40,7 +40,7 @@ module.exports = {
 		},{
 			title: '类型扩展',
 			collapsable: false,
-			children: ['classes/explain','classes/spiderresponse','classes/string','classes/date','classes/object','classes/list','classes/element','classes/elements','classes/array']
+			children: ['classes/explain','classes/spiderresponse','classes/string','classes/date','classes/object','classes/list','classes/map','classes/element','classes/elements','classes/array']
 		},{
 			title: '插件开发',
 			collapsable: false,

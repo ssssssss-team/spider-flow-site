@@ -8,7 +8,7 @@
 <dependency>
 	<groupId>org.spiderflow</groupId>
 	<artifactId>spider-flow-redis</artifactId>
-	<version>0.0.1</version>
+	<version>${spider-flow.version}</version>
 </dependency>
 ```
 ## 定义Redis数据源

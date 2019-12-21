@@ -31,3 +31,13 @@ ${listVar.join(',')}
 ```javascript
 ${listVar.shuffle()}
 ```
+
+## sort
+::: tip 
+返回值类型：List
+:::
+
+- 将list排序(正序)
+```javascript
+${listVar.sort()}
+```

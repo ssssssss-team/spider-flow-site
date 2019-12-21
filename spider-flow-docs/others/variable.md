@@ -11,6 +11,7 @@
   | headers    | Map<String,String>   | headers        |
   | statusCode | int                  | HTTP状态码     |
   | url        | String               | 当前页面的URL   |
+  | title        | String               | 当前页面的标题   |
   | stream     | InputStream          | 二进制流(可用于下载) |
 ## 异常信息
 当节点发生异常时，会产生ex变量，需要注意的是，ex变量不会向下传递

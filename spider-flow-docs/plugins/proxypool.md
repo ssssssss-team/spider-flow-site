@@ -1,5 +1,17 @@
 # IP代理池插件
 
+## 引入IP代理池插件
+1. 首先到码云下载插件[点击下载](https://gitee.com/jmxd/spider-flow-proxypool)到本地并导入到工作空间或安装到maven库
+2. 在spider-flow/spider-flow-web/pom.xml中引入插件
+```xml
+<!-- 引入proxypool插件 -->
+<dependency>
+	<groupId>org.spiderflow</groupId>
+	<artifactId>spider-flow-proxypool</artifactId>
+	<version>${spider-flow.version}</version>
+</dependency>
+```
+
 ### 方法
 
 ### proxypool.add
