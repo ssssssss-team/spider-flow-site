@@ -1,5 +1,25 @@
 # 更新日志
 
+## [v0.3.1] 2019.12.23
+- 新增Header、Cookies批量设置
+- 新增变量、参数、输出、函数、header、cookie拖动调整执行顺序
+- 新增插件功能描述及功能区显示
+- 新增map.toList、list.sort、object.sleep函数
+- 修复listVar.join中list.length为1时返回异常
+- 修复下次执行时间计算不正确的问题
+- 修复右键粘贴时保存不成功的BUG
+- 修复Cookie值不能使用表达式的BUG
+- 优化日志，修改其实现方式
+- 优化xpath解析方式，修复原解析xpath异常错误
+- 优化favicon替换掉默认的图标
+### Selenium插件重构
+- 支持Chrome、Firefox驱动
+- 支持Cookie自动管理
+- 支持驱动参数配置
+- 支持模拟鼠标移动，点击，双击，释放等事件
+- 支持HTTP代理
+
+
 ## [v0.3.0] 2019.12.09
 - 新增Cookie自动管理功能
 - 新增resp.links()、resp.images()、resp.title函数
