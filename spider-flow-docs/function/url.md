@@ -57,7 +57,7 @@
 - 获取`http://www.baidu.com/s?wd=spider-flow` 中的参数`wd`
 
   ```javascript
-  ${url.parameter('http://www.baidu.com/s?wd=spider-flow')}
+  ${url.parameter('http://www.baidu.com/s?wd=spider-flow','wd')}
   ```
 ## parameterMap
 

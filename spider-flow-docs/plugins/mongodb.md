@@ -8,7 +8,6 @@
 <dependency>
 	<groupId>org.spiderflow</groupId>
 	<artifactId>spider-flow-mongodb</artifactId>
-	<version>${spider-flow.version}</version>
 </dependency>
 ```
 ## 定义Mongodb数据源

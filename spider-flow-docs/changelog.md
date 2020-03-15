@@ -1,4 +1,16 @@
 # 更新日志
+## [v0.4.0] 2020.03.16
+- 新增自定义函数功能
+- 新增输出节点支持输出至数据库或csv文件
+- 新增获取元素节点和上级元素方法elementVar.subling()、elementVar.parent()、elementVar.parents()、elementsVar.parents()
+- 修复日志文件内容为空的问题 [#I1AXQK](https://gitee.com/jmxd/spider-flow/issues/I1AXQK)
+- 修复输出时可能出现的ArrayIndexOutOfBoundsException异常
+- 优化界面显示,并将右侧属性配置移到底部
+- 优化file函数,将下载调整为file.download(path,url)和file.download(path,urls)
+- 优化程序逻辑,将递归执行改为非递归执行
+
+
+
 
 ## [v0.3.2] 2019.12.26
 - 修复前端日志不输出的BUG
@@ -58,7 +70,7 @@
 - 优化全局变量支持表达式语法
 - 优化SQL支持表达式语法
 
-## [v0.2.0] 2019.11.3
+## [v0.2.0] 2019.11.03
 - 新增全局变量功能
 - 新增爬虫搜索功能
 - 新增List打乱函数

@@ -6,11 +6,10 @@
 #### 使用方法
 在 spider-flow-web pom.xml引用  
 
-```
+```xml
 <dependency>
  	<groupId>org.spiderflow</groupId>
  	<artifactId>spider-flow-ocr</artifactId>
- 	<version>${spider-flow.version}</version>
 </dependency>
 ```
 
@@ -19,7 +18,7 @@
  **例子在example文件夹**   
 
 先配置一下信息  
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1216/095925_6eef6ca0_1253940.png "settings.png")
+![输入图片说明](/images/settings.png "settings.png")
 
 识别效果  
-![输入图片说明](https://images.gitee.com/uploads/images/2019/1216/095944_31269262_1253940.png "ocr_test.png")
+![输入图片说明](/images/ocr_test.png "ocr_test.png")

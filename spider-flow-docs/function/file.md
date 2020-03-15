@@ -5,7 +5,7 @@
 |    参数名     |               描述                | 可否为空 |
 | :-----------: | :-------------------------------: | :------: |
 |     path      |            写出的路径             |    否    |
-| content/bytes/stream/List\<String> |       内容,字符串或字节数组或二进制输入流或url list       |    否    |
+| content/bytes/stream |       内容,字符串或字节数组或二进制输入流       |    否    |
 |    append     | 布尔类型,是否追加输出,默认为false |    是    |
 
 ::: tip 
@@ -20,12 +20,12 @@
   ```javascript
   ${file.write('/data/test.txt','hello world!')}
   ```
-## write
+## download
 
 |    参数名     |               描述                | 可否为空 |
 | :-----------: | :-------------------------------: | :------: |
 |     path      |            写出的路径             |    否    |
-|     urls      |       要下载的url集合      |    否    |
+|     url/urls      |       要下载的url或url集合      |    否    |
 
 ::: tip 
 
@@ -37,7 +37,7 @@
 - 写出文件,批量下载文件
 
   ```javascript
-  ${file.write('/data/',urls)}
+  ${file.download('/data/',urls)}
   ```
 
 ## bytes

@@ -36,7 +36,7 @@ module.exports = {
 		},{
 			title: '其它说明',
 			collapsable: false,
-			children: ['others/variable','others/faq']
+			children: ['others/variable','others/function','others/faq']
 		},{
 			title: '类型扩展',
 			collapsable: false,

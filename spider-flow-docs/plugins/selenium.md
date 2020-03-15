@@ -8,7 +8,6 @@
 <dependency>
 	<groupId>org.spiderflow</groupId>
 	<artifactId>spider-flow-selenium</artifactId>
-	<version>${spider-flow.version}</version>
 </dependency>
 ```
 3. 在spider-flow/spider-flow-web/application.properties中配置驱动路径

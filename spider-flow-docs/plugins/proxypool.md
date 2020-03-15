@@ -8,7 +8,6 @@
 <dependency>
 	<groupId>org.spiderflow</groupId>
 	<artifactId>spider-flow-proxypool</artifactId>
-	<version>${spider-flow.version}</version>
 </dependency>
 ```
 

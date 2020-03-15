@@ -7,11 +7,10 @@
 导入db文件夹sp_oss.sql文件到数据库  
 在 spider-flow-web pom.xml引用  
 
-```
+```xml
 <dependency>
  	<groupId>org.spiderflow</groupId>
  	<artifactId>spider-flow-oss</artifactId>
- 	<version>${spider-flow.version}</version>
 </dependency>
 ```
 
@@ -19,7 +18,7 @@
 #### 使用操作
  **例子在example文件夹**   
 上传（支持两种方式）：  
-```
+```javascript
 ${resp.bytes.ossUpload('oss_id（配置的主键）','static/1.jpg')}  
 ${'http://1.jpg'.ossUpload('oss_id（配置的主键）','static/1.jpg')}  
 ```
@@ -34,7 +33,7 @@ url:文件http地址
 
 删除：  
 
-```
+```javascript
 ${'static/1.jpg'.ossDelete()}
 ```
 

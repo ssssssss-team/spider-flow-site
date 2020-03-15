@@ -16,6 +16,8 @@ public class StringFunctionExtension implements FunctionExtension{
 	*	以将字符串转为int为例,该方法编写如下,最终调用时使用${strVar.toInt()}调用
 	*	该方法第一个参数会自动被传入,所以调用时无需传入
 	*/
+    @Comment("字符串转int")
+	@Example("${strVar.toInt()}")
 	public static Integer toInt(String str){
 		return NumberUtils.toInt(str);
 	}
@@ -25,6 +27,8 @@ public class StringFunctionExtension implements FunctionExtension{
 	*	以将字符串转为int为例,该方法编写如下,最终调用时使用${strVar.toInt(2)}调用
 	*	该方法第一个参数会自动被传入,所以调用时无需传入
 	*/
+    @Comment("字符串转int")
+	@Example("${strVar.toInt(0)}")
 	public static Integer toInt(String str,Integer defaultValue){
 		return NumberUtils.toInt(str,defaultValue);
 	}

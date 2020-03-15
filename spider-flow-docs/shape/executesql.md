@@ -2,7 +2,7 @@
 
 - 数据源，选择之前定义好的数据源
 
-- 语句类型，select/insert/update/delete
+- 语句类型，select/selectInt/selectOne/insert/update/delete
 
 - SQL语句，如`INSERT INTO gitee_gvp(project_name, project_link,project_desc) VALUES (#${projectNames[projectIndex]}#,#${projectUrls[projectIndex]}#,#${projectDesc}#)`
 
