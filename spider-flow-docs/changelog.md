@@ -1,4 +1,16 @@
 # 更新日志
+## [v0.4.1] 2020.03.18
+- 新增ForkJoin执行器(用于等待之前的节点结束)
+- 新增日志下载功能 [#I1BQ35](https://gitee.com/jmxd/spider-flow/issues/I1BQ35)
+- 新增docker部署
+- 移除LoopJoin执行器,用ForkJoin代替
+- 修复输出csv文件没有表头的问题
+- 修复最大线程数为1时爬虫不执行的问题
+- 修复strVar.xpath方法无法获取内容的问题
+- 修复修复节点形成递归时判断其是否结束的BUG
+- 修复前端日志打印不完整的BUG
+- 优化sidebar,取消滚动条，改为自适应 [#I1BQ5I](https://gitee.com/jmxd/spider-flow/issues/I1BQ5I)
+
 ## [v0.4.0] 2020.03.16
 - 新增自定义函数功能
 - 新增输出节点支持输出至数据库或csv文件
@@ -8,9 +20,6 @@
 - 优化界面显示,并将右侧属性配置移到底部
 - 优化file函数,将下载调整为file.download(path,url)和file.download(path,urls)
 - 优化程序逻辑,将递归执行改为非递归执行
-
-
-
 
 ## [v0.3.2] 2019.12.26
 - 修复前端日志不输出的BUG

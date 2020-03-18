@@ -5,7 +5,7 @@
 <parent>
     <groupId>org.spiderflow</groupId>
     <artifactId>spider-flow</artifactId>
-    <version>0.4.0</version>
+    <version>0.4.1</version>
 </parent>
 ```
 

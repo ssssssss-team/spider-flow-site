@@ -28,7 +28,7 @@ module.exports = {
 		},{
 			title: '图形说明',
 			collapsable: false,
-			children: ['shape/request','shape/variable','shape/loop','shape/loopjoin','shape/output','shape/executesql','shape/process','shape/function','shape/arrow']
+			children: ['shape/request','shape/variable','shape/loop','shape/forkjoin','shape/output','shape/executesql','shape/process','shape/function','shape/arrow']
 		},{
 			title: '函数说明',
 			collapsable: false,
