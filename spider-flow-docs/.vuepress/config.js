@@ -10,7 +10,7 @@ module.exports = {
 		lastUpdated: "上次更新",
 		nav : [{
 			text : '演示站点',
-			link : 'http://demo.spiderflow.org		/'
+			link : 'http://demo.spiderflow.org/'
 		},{
 			text : '源码',
 			link : 'https://gitee.com/jmxd/spider-flow'
@@ -22,29 +22,17 @@ module.exports = {
 			link : 'https://shang.qq.com/wpa/qunwpa?idkey=10faa4cf9743e0aa379a72f2ad12a9e576c81462742143c8f3391b52e8c3ed8d'
 		}],
 		sidebar:[{
-			title : '快速入门',
+			title : '使用教程',
 			collapsable: false,
-			children: ['intro','install','expression']
-		},{
-			title: '图形说明',
-			collapsable: false,
-			children: ['shape/request','shape/variable','shape/loop','shape/forkjoin','shape/output','shape/executesql','shape/process','shape/function','shape/arrow']
+			children: ['intro','install','course/quick-start','course/expression','course/variable','course/advanced','course/plugin','course/faq']
 		},{
 			title: '函数说明',
 			collapsable: false,
 			children: ['function/extra','function/base64','function/date','function/file','function/json','function/list','function/random','function/string','function/url']
 		},{
-			title: '其它说明',
-			collapsable: false,
-			children: ['others/variable','others/function','others/faq']
-		},{
 			title: '类型扩展',
 			collapsable: false,
 			children: ['classes/explain','classes/spiderresponse','classes/string','classes/date','classes/object','classes/list','classes/map','classes/element','classes/elements','classes/array']
-		},{
-			title: '插件开发',
-			collapsable: false,
-			children: ['development/plugin','development/shape','development/utils','development/extension']
 		},{
 			title: '插件',
 			collapsable: false,

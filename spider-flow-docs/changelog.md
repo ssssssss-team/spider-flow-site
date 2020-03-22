@@ -1,4 +1,15 @@
 # 更新日志
+## [v0.4.2] 2020.03.22
+- 新增版本更新检测
+- 新增流程检测,保证流程可正常运行
+- 修复撤销时js报错的BUG
+- 修复任务执行顺序不正确的问题
+- 优化文档
+### Selenium插件
+- 新增切换至iframe的方法
+- 修复遍历WebElements时无法使用selector/xpath等函数的问题
+
+
 ## [v0.4.1] 2020.03.18
 - 新增ForkJoin执行器(用于等待之前的节点结束)
 - 新增日志下载功能 [#I1BQ35](https://gitee.com/jmxd/spider-flow/issues/I1BQ35)

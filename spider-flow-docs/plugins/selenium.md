@@ -33,6 +33,26 @@
 
 ## SeleniumResponse 方法
 
+### switchTo
+
+|            参数名            |       描述       | 可否为空 |
+| :--------------------------: | :--------------: | :------: |
+|        index/iframeName/WebElement      |  要切换的iframe  |    否    |
+
+```javascript
+${resp.switchTo(index)}
+```
+
+::: tip 
+返回值类型：SeleniumResponse
+:::
+
+### switchToDefault
+切换至默认,即从iframe里切换回来
+```javascript
+${resp.switchToDefault()}
+```
+
 ### selector
 
 |            参数名            |       描述       | 可否为空 |
