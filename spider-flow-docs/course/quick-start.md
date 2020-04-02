@@ -70,10 +70,10 @@
 主要用于与数据库交互（查询/修改/插入/删除等等）
 
 - 数据源：需要选择配置好的数据源
-- 语句类型：select/selectInt/selectOne/insert/update/delete
+- 语句类型：select/selectInt/selectOne/insert/insertofPk/update/delete
 - <font color="blue">SQL</font>： 要执行SQL语句，需要动态注入的参数用`##`包裹起来如：`#${item[index].id}#`
 ::: tip 
-该节点执行完毕时会产生`rs`变量，selectInt/insert/update/delete会返回`int`类型,select会返回`List<Map<String,Object>>`,selectOne返回`Map<String,Object>`
+该节点执行完毕时会产生`rs`变量，selectInt/insert/update/delete会返回`int`类型,select会返回`List<Map<String,Object>>`,selectOne返回`Map<String,Object>`,insertofPk返回主键值
 :::
 
 
@@ -90,6 +90,10 @@
 ### 连接线 ![连接线](/images/course/shape-arrow.png "shape-arrow.png")
 用来流转至下一个节点
 
+- 线粗细：用来调整线的粗细
+- 线样式：用来调整线的样式
+- 线颜色：用来调整线的颜色
+- 流转特性：目前可勾选的是传递变量（默认勾选）
 - <font color="blue">流转条件</font>：当表达式返回`true`时将流向下一个节点，否则不流转,不填时默认流转
 
 ### 通用参数
