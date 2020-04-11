@@ -9,8 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "spider-flow-docs:dev": "vuepress dev spider-flow-docs",
-    "spider-flow-docs:build": "vuepress build spider-flow-docs"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",
