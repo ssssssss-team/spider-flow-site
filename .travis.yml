@@ -18,5 +18,5 @@ after_success:
   - git config --global user.name "${U_NAME}"
   - git config --global user.email "${U_EMAIL}"
   - git add -A
-  - git commit -m 'deploy at `date +\"%Y-%m-%d %H:%M:%S\"`'
+  - git commit -m "depoly at `date +"%Y-%m-%d %H:%M"`"
   - git push --quiet --force "https://${GH_TOKEN}@github.com/javamxd/spider-flow-site.git" master:gh-pages
