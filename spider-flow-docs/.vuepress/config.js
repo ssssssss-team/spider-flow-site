@@ -13,7 +13,13 @@ module.exports = {
 			link : 'http://demo.spiderflow.org/'
 		},{
 			text : '源码',
-			link : 'https://gitee.com/jmxd/spider-flow'
+			items : [{
+				text : 'Gitee',
+				link : 'https://gitee.com/jmxd/spider-flow'
+			},{
+				text : 'Github',
+				link : 'https://github.com/javamxd/spider-flow'
+			}]
 		},{
 			text : '更新日志',
 			link : '/changelog'

@@ -144,6 +144,14 @@ ${strVar.json()}
   ```javascript
   ${strVar.jsonpath('$.code')}
   ```
+  
+### unescape
+
+- 字符串反转义
+
+  ```javascript
+  ${strVar.unescape()}
+  ```
 
 ## toDate
 

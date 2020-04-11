@@ -153,7 +153,12 @@ ${resp.switchToDefault()}
   ```javascript
   ${resp.toUrl('https://www.baidu.com')}
   ```
+### loadCookies
 
+- 将cookie加载至cookieContext中，以便后续自动管理cookie
+  ```javascript
+  ${resp.loadCookies()}
+  ```
 ## WebElement 方法
 
 ### html
@@ -301,7 +306,7 @@ ${resp.switchToDefault()}
 
 - 模拟鼠标移动到该节点上，等待500ms在点击，等待500ms在移动，最后释放(模拟拖拽滑块条)
    ```javascript
-    ${elementVar.move().pause(500).clickAndHold().pause(500).move(200,0)release().perform()}
+    ${elementVar.move().pause(500).clickAndHold().pause(500).move(200,0).release().perform()}
    ```
 ## WebElements 方法
 
