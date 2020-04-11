@@ -8,6 +8,8 @@ cache:
 branches:
   only:
     - master
+before_install:
+  - export TZ='Asia/Shanghai'
 install:
   - npm install
 script:
