@@ -21,4 +21,5 @@
 - 当是select语句时，类型为`List<Map<String,Object>>`
 - 当是selectInt语句时，变量类型为`int`
 - 当是selectOne语句时，变量类型为`Map<String,Object>`
-- 当是insert/update/delete语句时，变量类型为`int` 
+- 当是insert/update/delete语句时，变量类型为`int`
+- 当是insertofpk语句时，返回的是主键，变量类型为`int`  

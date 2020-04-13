@@ -119,10 +119,26 @@ ${elementsVar.selectors('div a.selected')}
 :::
 
 
-- 获取节点的属性值
+- 获取第一个节点的属性值
 
 ```javascript
 ${elementsVar.attr('src')}
+```
+
+## attrs
+
+| 参数名 |       描述       | 可否为空 |
+| :----: | :--------------: | :------: |
+| attrName |  属性名  | 否 |
+::: tip 
+返回值类型：List\<String>
+:::
+
+
+- 获取所有节点的属性值
+
+```javascript
+${elementsVar.attrs('src')}
 ```
   
 ## text
@@ -131,10 +147,22 @@ ${elementsVar.attr('src')}
 返回值类型：String
 :::
 
-- 获取节点的Text
+- 获取第一个节点的Text
 
 ```javascript
 ${elementsVar.text()}
+```
+
+## texts
+
+::: tip 
+返回值类型：List\<String>
+:::
+
+- 获取所有节点节点的Text
+
+```javascript
+${elementsVar.texts()}
 ```
 
 ## html
@@ -143,7 +171,18 @@ ${elementsVar.text()}
 :::
 
 
-- 获取节点的html
+- 获取第一个节点的html
 ```javascript
 ${elementsVar.html()}
+```
+
+## htmls
+::: tip 
+返回值类型：List\<String>
+:::
+
+
+- 获取所有节点的html
+```javascript
+${elementsVar.htmls()}
 ```
