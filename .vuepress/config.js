@@ -24,6 +24,21 @@ module.exports = {
 			text : '更新日志',
 			link : '/changelog'
 		},{
+			text : '其它开源',
+			items : [{
+				text : 'ssssssss(Gitee)',
+				link : 'https://gitee.com/jmxd/ssssssss'
+			},{
+				text : 'ssssssss(Github)',
+				link : 'https://github.com/javamxd/ssssssss'
+			},{
+				text : 'ssssssss-spring-boot-starter(Gitee)',
+				link : 'https://gitee.com/jmxd/ssssssss-spring-boot-starter'
+			},{
+				text : 'ssssssss-spring-boot-starter(Github)',
+				link : 'https://github.com/javamxd/ssssssss-spring-boot-starter'
+			}]
+		},{
 			text : '加入QQ群',
 			link : 'https://shang.qq.com/wpa/qunwpa?idkey=10faa4cf9743e0aa379a72f2ad12a9e576c81462742143c8f3391b52e8c3ed8d'
 		}],
