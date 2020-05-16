@@ -1,7 +1,7 @@
 # ocr
 
 #### 引入ocr插件
-首先到码云下载插件[点击下载](https://gitee.com/jmxd/spider-flow-ocr)到本地并导入到工作空间或安装到maven库
+首先到码云下载插件[点击下载](https://gitee.com/ssssssss-team/spider-flow-ocr)到本地并导入到工作空间或安装到maven库
 
 #### 使用方法
 在 spider-flow-web pom.xml引用  

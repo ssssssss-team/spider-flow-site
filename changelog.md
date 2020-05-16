@@ -56,7 +56,7 @@
 
 ## [v0.4.1] 2020.03.18
 - 新增ForkJoin执行器(用于等待之前的节点结束)
-- 新增日志下载功能 [#I1BQ35](https://gitee.com/jmxd/spider-flow/issues/I1BQ35)
+- 新增日志下载功能 [#I1BQ35](https://gitee.com/ssssssss-team/spider-flow/issues/I1BQ35)
 - 新增docker部署
 - 移除LoopJoin执行器,用ForkJoin代替
 - 修复输出csv文件没有表头的问题
@@ -64,13 +64,13 @@
 - 修复strVar.xpath方法无法获取内容的问题
 - 修复修复节点形成递归时判断其是否结束的BUG
 - 修复前端日志打印不完整的BUG
-- 优化sidebar,取消滚动条，改为自适应 [#I1BQ5I](https://gitee.com/jmxd/spider-flow/issues/I1BQ5I)
+- 优化sidebar,取消滚动条，改为自适应 [#I1BQ5I](https://gitee.com/ssssssss-team/spider-flow/issues/I1BQ5I)
 
 ## [v0.4.0] 2020.03.16
 - 新增自定义函数功能
 - 新增输出节点支持输出至数据库或csv文件
 - 新增获取元素节点和上级元素方法elementVar.subling()、elementVar.parent()、elementVar.parents()、elementsVar.parents()
-- 修复日志文件内容为空的问题 [#I1AXQK](https://gitee.com/jmxd/spider-flow/issues/I1AXQK)
+- 修复日志文件内容为空的问题 [#I1AXQK](https://gitee.com/ssssssss-team/spider-flow/issues/I1AXQK)
 - 修复输出时可能出现的ArrayIndexOutOfBoundsException异常
 - 优化界面显示,并将右侧属性配置移到底部
 - 优化file函数,将下载调整为file.download(path,url)和file.download(path,urls)

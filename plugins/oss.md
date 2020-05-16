@@ -1,7 +1,7 @@
 # oss
 
 #### 引入oss插件
-首先到码云下载插件[点击下载](https://gitee.com/jmxd/spider-flow-oss)到本地并导入到工作空间或安装到maven库
+首先到码云下载插件[点击下载](https://gitee.com/ssssssss-team/spider-flow-oss)到本地并导入到工作空间或安装到maven库
 
 #### 使用方法
 导入db文件夹sp_oss.sql文件到数据库  

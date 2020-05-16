@@ -1,7 +1,7 @@
 # selenium
 
 ## 引入selenium插件
-1. 首先到码云下载插件[点击下载](https://gitee.com/jmxd/spider-flow-selenium)到本地并导入到工作空间或安装到maven库
+1. 首先到码云下载插件[点击下载](https://gitee.com/ssssssss-team/spider-flow-selenium)到本地并导入到工作空间或安装到maven库
 2. 在spider-flow/spider-flow-web/pom.xml中引入插件
 ```xml
 <!-- 引入selenium插件 -->

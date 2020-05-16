@@ -28,7 +28,7 @@ spider-flow 是一个爬虫平台，以图形化方式定义爬虫流程，无�
 
 ## 参与贡献
 
-- 贡献代码：代码地址：[Github](https://github.com/javamxd/spider-flow) [Gitee](https://gitee.com/jmxd/spider-flow)，欢迎提交Issue或Pull Requests
+- 贡献代码：代码地址：[Github](https://github.com/ssssssss-team/spider-flow) [Gitee](https://gitee.com/ssssssss-team/spider-flow)，欢迎提交Issue或Pull Requests
 
-- 维护文档：文档地址：[spider-flow-site](https://github.com/javamxd/spider-flow-site)，欢迎参与修订
+- 维护文档：文档地址：[spider-flow-site](https://github.com/ssssssss-team/spider-flow-site)，欢迎参与修订
 

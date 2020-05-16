@@ -3,7 +3,7 @@ module.exports = {
 	description: '一个无需写代码的爬虫平台',
 	head: [["link", {rel: "icon", href: `/favicon.ico`}]],
 	themeConfig: {
-		docsRepo : 'javamxd/spider-flow-site',
+		docsRepo : 'ssssssss-team/spider-flow-site',
 		docsDir : 'spider-flow-docs',
 		editLinks : true,
 		editLinkText: "在 GitHub 上编辑此页",
@@ -15,10 +15,10 @@ module.exports = {
 			text : '源码',
 			items : [{
 				text : 'Gitee',
-				link : 'https://gitee.com/jmxd/spider-flow'
+				link : 'https://gitee.com/ssssssss-team/spider-flow'
 			},{
 				text : 'Github',
-				link : 'https://github.com/javamxd/spider-flow'
+				link : 'https://github.com/ssssssss-team/spider-flow'
 			}]
 		},{
 			text : '更新日志',
@@ -26,17 +26,17 @@ module.exports = {
 		},{
 			text : '其它开源',
 			items : [{
-				text : 'ssssssss(Gitee)',
-				link : 'https://gitee.com/jmxd/ssssssss'
+				text : 'magic-api(Gitee)',
+				link : 'https://gitee.com/ssssssss-team/magic-api'
 			},{
-				text : 'ssssssss(Github)',
-				link : 'https://github.com/javamxd/ssssssss'
+				text : 'magic-api(Github)',
+				link : 'https://github.com/ssssssss-team/magic-api'
 			},{
-				text : 'ssssssss-spring-boot-starter(Gitee)',
-				link : 'https://gitee.com/jmxd/ssssssss-spring-boot-starter'
+				text : 'magic-api-spring-boot-starter(Gitee)',
+				link : 'https://gitee.com/ssssssss-team/magic-api-spring-boot-starter'
 			},{
-				text : 'ssssssss-spring-boot-starter(Github)',
-				link : 'https://github.com/javamxd/ssssssss-spring-boot-starter'
+				text : 'magic-api-spring-boot-starter(Github)',
+				link : 'https://github.com/ssssssss-team/magic-api-spring-boot-starter'
 			}]
 		},{
 			text : '加入QQ群',
