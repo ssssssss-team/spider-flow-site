@@ -4,7 +4,7 @@
   "description": "新一代爬虫平台，以图形化方式定义爬虫流程，不写代码即可完成爬虫。\r >  **QQ交流群：720832964**",
   "main": "index.js",
   "dependencies": {
-    "vuepress": "^1.0.3",
+    "vuepress": "^1.4.1",
     "webpack-dev-middleware": "^3.6.0"
   },
   "devDependencies": {},

@@ -1,5 +1,31 @@
 # 更新日志
 
+## [v0.5.1]
+- 新增Lambda函数map、filter、reduce、sort、every、some、distinct
+- 新增脚本管理、执行脚本功能
+- 新增重复不执行后续节点选项
+- 修复url.parameterMap函数的BUG
+- 修复表达式BUG
+- 修复输出到数据库时值类型强制转换为String的问题
+- 修复有时不显示编辑器的问题
+- 修复切换到定时任务时，任务不执行的BUG
+- 优化定时任务，改为默认开启
+- 优化循环功能，支持循环map
+- 优化切换定时任务/长任务切换后刷新表格
+- 优化表达式提示，弃用codemirror，改用monaco
+- 优化数据源驱动改为可下拉框+可输入
+- 升级transmittable-thread-local to 2.11.5
+
+### selenium插件
+- 新增支持Select
+- 优化注释
+
+### proxypool插件
+- 优化注释
+
+### ocr插件
+- 修复日志组件冲突
+
 ## [v0.5.0] 2020.04.13
 - 新增注释节点
 - 新增字符串反转义函数

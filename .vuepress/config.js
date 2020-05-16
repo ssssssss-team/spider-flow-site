@@ -59,5 +59,6 @@ module.exports = {
 			collapsable: false,
 			children: ['plugins/selenium','plugins/redis','plugins/mongodb','plugins/oss','plugins/ocr','plugins/proxypool']
 		}]
-    }
+    },
+	plugins : [require('./plugins/stat')]
 }
