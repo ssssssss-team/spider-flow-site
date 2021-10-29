@@ -1,7 +1,10 @@
 module.exports = {
 	title: 'spider-flow',
 	description: '一个无需写代码的爬虫平台',
-	head: [["link", {rel: "icon", href: `/favicon.ico`}]],
+	head: [
+		["link", {rel: "icon", href: `/favicon.ico`}],
+		["script", { "crossorigin": "anonymous", async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9417757127794923" }]
+	],
 	themeConfig: {
 		docsRepo : 'ssssssss-team/spider-flow-site',
 		docsDir : 'spider-flow-docs',
