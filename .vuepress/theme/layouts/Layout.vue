@@ -1,7 +1,7 @@
 <template>
   <ParentLayout>
     <AdSense slot="sidebar-bottom"/>
-    <AdSense slot="page-bottom"/>
+    <div class="wwads-cn wwads-vertical" data-id="138" style="position: fixed;bottom: 0;right: 55px;font-weight: 350;max-width:200px;"></div>
   </ParentLayout>
 </template>
 

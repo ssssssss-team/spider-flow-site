@@ -3,7 +3,8 @@ module.exports = {
 	description: '一个无需写代码的爬虫平台',
 	head: [
 		["link", {rel: "icon", href: `/favicon.ico`}],
-		["script", { "crossorigin": "anonymous", async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9417757127794923" }]
+		["script", { "crossorigin": "anonymous", async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9417757127794923" }],
+		["script", { async: true, src: "https://cdn.wwads.cn/js/makemoney.js" }]
 	],
 	themeConfig: {
 		docsRepo : 'ssssssss-team/spider-flow-site',
